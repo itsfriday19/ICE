@@ -1,3 +1,3 @@
 # itsfriday19.github.io
 
-This is the README!
+This is the main repo README!
