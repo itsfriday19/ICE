@@ -1,0 +1,124 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/*------ Header ------*/
+
+header {
+	max-height: 90px;
+/*	background: lightgrey;*/
+	border: 1px lightgrey;
+
+}
+
+header h1 {
+	color: #ED5949;
+	padding: 20px;
+	font-size: 2.2rem;
+}
+
+/*----- Nav Bar -----*/
+nav ul {
+	list-style: none;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: right;
+	color: #ED5949;
+	padding: 10px;
+}
+
+nav ul li a {
+	margin: 5px;
+	text-decoration: none;
+	color: #ED5949;
+	font-size: 1.2rem;
+}
+
+/*nav ul li a {
+	max-width: 70px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	text-decoration: none;
+	text-align: right;
+	color: #ED5949;
+}*/
+
+/*nav ul li:hover ul {
+	display: block;
+}*/
+
+/*nav ul li ul {
+	display: none;
+	width: 100px;
+}*/
+
+/*------ Body ------*/
+
+/*-- Bio --*/
+.bio { 
+	padding: 40px;
+}
+
+/*-- project images --*/
+
+.projects {
+	/*margin-left: 16%;*/
+	padding: 25px;
+	text-align: center;
+}
+
+/*-- project descriptions --*/
+
+.projectP {
+	text-align: left;
+	padding: 0 0 20px;
+}
+
+.projectP p {
+	display: inline-block;
+	margin-left: 16%;
+}
+
+#p1 {
+	padding: 0px 30px 0 0;
+}
+
+#p2 {
+	padding: 0 30px 0 0;
+}
+
+/*------ Footer ------*/
+
+footer {
+	background: #ED5949;
+	margin: 0;
+	padding: 0;
+}
+
+footer img {
+	padding: 5px;
+}
+
+footer div {
+	color: white;
+	font-size: .8rem;
+	text-align: center;
+	padding-bottom: 7px;
+}
+
+footer div a {
+	color: white;
+	text-decoration: none;
+}
+
+* {
+	margin: 0;
+}
