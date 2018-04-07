@@ -23,46 +23,61 @@
 </head>
 
 
-<body> <!-- onload="whenReady()" -->
-	<header>
-	<h1>Sarah Jomaa</h1>
-	<nav class="navbar">
-		<ul>
-			<li><a href="#home">home</a></li> 
-			<li><a href="#projects">projects</a></li> 
-			<li><a href="#art">art</a></li>
-			<li><a href="#contact">contact</a></li>
-		</ul>
-	</nav>
-	</header>
+<body class="body_home"> <!-- onload="whenReady()" -->
+		<header class="header">
+			<img src="img/favicon.png" alt="logo" aria-label="logo">
+			<h1>Sarah Jomaa</h1>
+			<nav class= "navbar">
+				<ul>
+					<li><a tabindex="1" class="current-page" href="index.html">home</a></li> 
+					<li><a tabindex="2" href="projects.html">projects</a></li> 
+					<li><a tabindex="3" href="art.html">art</a></li>
+					<li><a tabindex="4" href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
+
+<!-- home page -->
+<div class="homecontent">
 
 	<div class="bio">
-		<img src="img/personimg_placeholder.png" alt="*placeholder">
-		<p>Bio</p>
+		<img src="img/profile.JPG" alt="profile picture: girl with curly brown hair and glasses">
+		<p>
+		My name is Sarah Jomaa. I'm an undergrad senior at the University of Michigan, majoring in UX Design in the School of Information, with a minor in Art &amp; Design. I work at the Office of Tech Transfer at UM as a UX Fellow. I love digital art, and most of my art these days is painted in Photoshop. </p>
 	</div>
 
 
-	<div class="projects">
+	<div class="projectpreviews">
+		<div class="project1">
+			<img id="pimg1" tabindex="5" aria-label="project 1" src="img/project1.jpg" alt="wood desk, journal, and orange chair">
+			<p id="p1">Project Name<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
+		</div>
 
-		<img id="img1" src="img/img_placeholder.png" alt="*placeholder">
-		<img id="img2" src="img/img_placeholder.png" alt="*placeholder">
-		<img id="img3" src="img/img_placeholder.png" alt="*placeholder">
+		<div class="project2">
+			<img id="pimg2" tabindex="6" aria-label="project 2" src="img/project2.jpg" alt="laptop on white desk"> 
+			<p id="p2">Project Name<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
+		</div>
+
+		<div class="project3">
+			<img id="pimg3" tabindex="7" aria-label="project 3" src="img/project3.jpg" alt="lightbulb">
+			<p id="p3">Project Name<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
+		</div>
 	</div>
 
-	<div class="projectP">
-		<p id="p1">Project description 1</p>
-		<p id="p2">Project description 2</p>
-		<p id="p3">Project description 3</p>
-	</div>
+</div>
 
+	<footer class="footer">
 
-	<footer>
-		<img src="img/google-plus-logo.png" alt="google plus logo">
-		<img src="img/linkedin-logo.png" alt="linked In logo">
+		<div class="foot_text">
+			Copyright&copy; Sarah Jomaa 2018<br><br>
 
-		<div> 
-			Icons made by <a href="https://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a>, <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+			<div class="icons">
+				<a href="https://goo.gl/vxo6td"><img src="img/googleplus.png" alt="google plus logo"></a>
+				<a href="https://goo.gl/BhBMRy"><img src="img/linkedin.png" alt="linked In logo"></a>
+			</div>
+
+			Icons made by <a href="https://www.flaticon.com/authors/linh-pham" title="Linh Pham">Linh Pham</a>, <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/alessio-atzeni" title="Alessio Atzeni">Alessio Atzeni</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 		</div>
 	</footer>
 
