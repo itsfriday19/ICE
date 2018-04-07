@@ -441,6 +441,9 @@ nav ul li a {
 
 /*--- Tablet View ---*/
 @media (max-width: 768px) {
+	.contact_content {
+		padding-top: 20%;
+	}
 	
 }
 
