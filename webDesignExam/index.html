@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <title>Exam2 - Sarah Jomaa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body class="main">
+
+<h1>Sarah Jomaa</h1>
+
+<div class="images">
+<img id="lIMG" src="images/examPic.JPG" alt="family posing with cutout aligator">
+
+
+<img id= "rIMG" src="images/UMSI-logo.jpg" alt="UMSI logo under yellow Block M">
+</div>
+
+<script>
+    function hideFunction(){
+        var x = document.getElementById("lIMG");
+        if (x.style.display === "none"){
+            // document.getElementsByTagName("img")[1].setAttribute("class", "centerIMG")
+
+        } else {
+            x.style.display ="none";
+            // x.style.alignItems = "center";
+            // x.style.width = "50%";
+        }
+    }
+
+    function showFunction(){
+        var x = document.getElementById('lIMG');
+        x.style.display = 'inline-block';
+    }
+</script>
+
+<br>
+<button onclick="hideFunction()" type="button">Hide Image</button>
+
+<button onclick="showFunction()" type="button">Show Image</button>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+.mainPage {
+	background-image: url('../images/circles_light.jpg');
+	background-size: cover;
+}
+
+.main {
+	background-image: url('../images/circles_light.jpg');
+	background-size: cover;
+}
+
+.main .images {
+	width: 100%;
+}
+
+.images {
+	display: inline-block;
+	/*height: auto;*/
+	white-space: nowrap;
+	/*width:81.7%;*/
+/*	height: auto;*/
+}
+
+.images img {
+	width: 50%;
+	height: auto;
+	border: 5px solid blue;
+	padding: 5%;
+}
+
+/*#lIMG {
+	display: inline-block;
+	width: 50%;
+	height: auto;
+}
+
+#rIMG {
+	display: inline-block;
+	width: 50%;
+	height: auto;
+}*/
+
+* {
+	margin: 0;
+}
